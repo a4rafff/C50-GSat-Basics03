@@ -56,10 +56,23 @@ namespace Demo
             #region question 5
             //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,Pages: 464" using the + operator
 
+            //String title = "Clean Code";
+            //int pages = 464;
+
+            //String result = "Book: " + title + ", Pages: " + pages;
+            //Console.WriteLine(result);
+
+            #endregion 
+
+
+            #region question 6
+            //Build the same sentence as above, but using string interpolation ($"...").
+
+
             String title = "Clean Code";
             int pages = 464;
 
-            String result = "Book: " + title + ", Pages: " + pages;
+            String result = $"Book : {title} , Pages : {pages}";
             Console.WriteLine(result);
 
             #endregion
