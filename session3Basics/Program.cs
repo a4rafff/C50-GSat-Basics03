@@ -172,10 +172,23 @@ namespace Demo
             //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1.Clean Code.
 
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine(books[i]);
+            //}
+            #endregion
+
+            #region question 15
+            //Using the same books array, use a while loop to print every book title.
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for (int i = 0; i < books.Length; i++)
+
+            int index = 0;
+            while (index < books.Length)
             {
-                Console.WriteLine(books[i]);
+                Console.WriteLine(books[index]);
+                index++;
             }
             #endregion
 
