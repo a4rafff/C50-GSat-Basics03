@@ -125,13 +125,13 @@ namespace Demo
             //Given int pages = 464; and bool isAvailable = true;, print "You can borrow this book" only if pages is greater than 300 and isAvailable is true.Use the && operator.
 
 
-            //int Pages = 464;
-            //bool isAvailable = true;
+            int Pages = 464;
+            bool isAvailable = true;
 
-            //if (Pages > 300 && isAvailable)
-            //{
-            //    Console.WriteLine("You can borrow this book");
-            //}
+            if (Pages > 300 && isAvailable)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
 
 
             #endregion
@@ -239,22 +239,22 @@ namespace Demo
 
 
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-              static void PrintFirstBook(string[] books)
-            {
-                if (books == null || books.Length == 0)
-                {
-                    return;
-                }
+            //  static void PrintFirstBook(string[] books)
+            //{
+            //    if (books == null || books.Length == 0)
+            //    {
+            //        return;
+            //    }
 
-                Console.WriteLine(books[0]);
-            }
+            //    Console.WriteLine(books[0]);
+            //}
 
-            #endregion
+            //#endregion
 
 
-            PrintFirstBook(books);
+            //PrintFirstBook(books);
 
         }
     }
