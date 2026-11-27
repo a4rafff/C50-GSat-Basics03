@@ -82,11 +82,26 @@ namespace Demo
 
 
 
-            String title = "Clean Code";
-            int pages = 464;
+            //String title = "Clean Code";
+            //int pages = 464;
 
-            String result = string.Format("Book : {0} , Pages : {1}", title, pages);
-            Console.WriteLine(result);
+            //String result = string.Format("Book : {0} , Pages : {1}", title, pages);
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region question 8
+            //Build the same sentence again, but using string.Format().
+
+            int Pages = 464;
+
+            if (Pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else {
+                Console.WriteLine("Short Book");
+            }
 
             #endregion
 
