@@ -69,10 +69,23 @@ namespace Demo
             //Build the same sentence as above, but using string interpolation ($"...").
 
 
+            //String title = "Clean Code";
+            //int pages = 464;
+
+            //String result = $"Book : {title} , Pages : {pages}";
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region question 7
+            //Build the same sentence again, but using string.Format().
+
+
+
             String title = "Clean Code";
             int pages = 464;
 
-            String result = $"Book : {title} , Pages : {pages}";
+            String result = string.Format("Book : {0} , Pages : {1}", title, pages);
             Console.WriteLine(result);
 
             #endregion
