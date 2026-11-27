@@ -62,7 +62,7 @@ namespace Demo
             //String result = "Book: " + title + ", Pages: " + pages;
             //Console.WriteLine(result);
 
-            #endregion 
+            #endregion
 
 
             #region question 6
@@ -93,15 +93,30 @@ namespace Demo
             #region question 8
             //Build the same sentence again, but using string.Format().
 
-            int Pages = 464;
+            //int Pages = 464;
 
-            if (Pages > 300)
+            //if (Pages > 300)
+            //{
+            //    Console.WriteLine("Long Book");
+            //}
+            //else {
+            //    Console.WriteLine("Short Book");
+            //}
+
+            #endregion
+
+            #region question 9
+            //Given int pages = 464; and bool isAvailable = true;, print "You can borrow this book" only if pages is greater than 300 and isAvailable is true.Use the && operator.
+
+
+            int Pages = 464;
+            bool isAvailable = true;
+
+            if (Pages > 300 && isAvailable)
             {
-                Console.WriteLine("Long Book");
+                Console.WriteLine("You can borrow this book");
             }
-            else {
-                Console.WriteLine("Short Book");
-            }
+            
 
             #endregion
 
